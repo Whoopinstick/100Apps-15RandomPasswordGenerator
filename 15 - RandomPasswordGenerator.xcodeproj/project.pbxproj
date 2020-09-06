@@ -76,8 +76,8 @@
 		0A62287125056FD600EFDDE7 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				0A62286025056FC400EFDDE7 /* ContentView.swift */,
 				0A62286725056FC400EFDDE7 /* Main.storyboard */,
+				0A62286025056FC400EFDDE7 /* ContentView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
