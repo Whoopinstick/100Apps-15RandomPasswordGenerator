@@ -55,12 +55,11 @@
 		0A62285D25056FC400EFDDE7 /* 15 - RandomPasswordGenerator */ = {
 			isa = PBXGroup;
 			children = (
-				0A62285E25056FC400EFDDE7 /* AppDelegate.swift */,
-				0A62286025056FC400EFDDE7 /* ContentView.swift */,
 				0A62286225056FC400EFDDE7 /* Assets.xcassets */,
-				0A62286725056FC400EFDDE7 /* Main.storyboard */,
 				0A62286A25056FC400EFDDE7 /* Info.plist */,
 				0A62286B25056FC400EFDDE7 /* _5___RandomPasswordGenerator.entitlements */,
+				0A62287225056FE100EFDDE7 /* Delegate */,
+				0A62287125056FD600EFDDE7 /* View */,
 				0A62286425056FC400EFDDE7 /* Preview Content */,
 			);
 			path = "15 - RandomPasswordGenerator";
@@ -72,6 +71,23 @@
 				0A62286525056FC400EFDDE7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0A62287125056FD600EFDDE7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A62286025056FC400EFDDE7 /* ContentView.swift */,
+				0A62286725056FC400EFDDE7 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A62287225056FE100EFDDE7 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				0A62285E25056FC400EFDDE7 /* AppDelegate.swift */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
